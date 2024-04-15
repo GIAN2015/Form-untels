@@ -1,0 +1,20 @@
+#container-date{
+    marg
+}
+#sexo {
+    text-align: right;
+  
+    
+}
+#sexo input[type="radio"] {
+   /* Ajusta el valor según tu preferencia */
+}
+#txt-squart input{
+    background-color: aqua;
+    width: 80px;
+    top: 1000px;
+    
+}
+#boton-login{
+    margin-top: 1%;
+}

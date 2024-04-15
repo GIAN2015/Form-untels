@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario estudiantil</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body id="body">
+    <fieldset id="container-date">
+        <legend>Datos personales</legend>
+        <form action="#" method="post">
+        <table>
+            <tr>
+                <td>D.N.I</td>
+                <td> <input type="text"></td>
+            </tr>
+            <tr>
+                <td>Nombre</td>
+                <td> <input type="text"></td>
+            </tr>
+            <tr>
+                <td>Apellidos</td>
+                <td> <input type="text"></td>
+            </tr>
+            <tr id="sexo"> <!-- Cambiado el div por un tr -->
+                <td>Sexo</td>
+                <td> 
+                    <input type="radio" name="sexo" value="F"  >Femenino
+                    <input type="radio" name="sexo" value="M" >Masculino
+                </td>
+            </tr>
+            
+            
+        </table>
+        
+         </form>
+        </fieldset>
+<fieldset id="container-direc">
+    <legend>Dirección</legend>
+    <form action="#" method="post">
+    <table>
+        <tr>
+            <td>calle/Avda:</td>
+            <td> <input type="text"></td>
+        </tr>
+        <tr>
+            <td>Población</td>
+            <td> <input type="text"></td>
+        </tr>
+        <tr>
+            <td>Provincia</td>
+            <td>
+                <select name="provincia">
+                    <option value="1">Amazonas</option>
+                    <option value="2">Áncash</option>
+                    <option value="3">Apurímac</option>
+                    <option value="4">Arequipa</option>
+                    <option value="5">Ayacucho</option>
+                    <option value="6">Cajamarca</option>
+                    <option value="7">Callao</option>
+                    <option value="8">Cusco</option>
+                    <option value="9">Huancavelica</option>
+                    <option value="10">Huánuco</option>
+                    <option value="11">Ica</option>
+                    <option value="12">Junín</option>
+                    <option value="13">La Libertad</option>
+                    <option value="14">Lambayeque</option>
+                    <option value="15">Lima</option>
+                    <option value="16">Loreto</option>
+                    <option value="17">Madre de Dios</option>
+                    <option value="18">Moquegua</option>
+                    <option value="19">Pasco</option>
+                    <option value="20">Piura</option>
+                    <option value="21">Puno</option>
+                    <option value="22">San Martín</option>
+                    <option value="23">Tacna</option>
+                    <option value="24">Tumbes</option>
+                    <option value="25">Ucayali</option>
+                </select>
+                
+            
+            </td>
+        </tr>
+       
+    </table>
+</fieldset>
+<fieldset id="container-pract">
+    <legend>Práctica en grupo</legend>
+    <form action="#" method="post">
+    <table>
+        <tr>
+            <td>Archivo:
+            
+                <input type="file" id="archivo" style="display: none;">
+                
+                    <input type="text">
+                
+                <label for="archivo" id="examinar-btn"></label>
+                <button type="button" onclick="document.getElementById('archivo').click()">Examinar</button>
+                
+            </td>
+            
+        </tr>
+        <tr>
+            <td><input type="checkbox" value="Archivo-compri" >Archivo comprimido
+                <input type="checkbox" value="Archivo-encrip" >Archivo encriptado</td>
+        </tr>
+        <tr id="txt-squart">
+            <td>Descripción de la gráfica
+                <textarea id="txtarea" row="20" cols="40"></textarea>
+
+            </td>
+        </tr>
+      
+    </table>
+    
+ </fieldset>  
+ <tr>
+    <td id="Enviar">
+        <input id="boton-login" type="submit" value="Enviar consulta"></td>
+</tr> 
+</form>
+
+</body>
+</html>

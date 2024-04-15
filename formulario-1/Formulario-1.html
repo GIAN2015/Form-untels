@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario estudiantil-1</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="Style-1.css">
+    <style>
+      body {
+          background-image: url('background-untels.jpeg');
+          background-size: cover;
+          background-repeat: no-repeat;
+          height: 100vh;
+          
+      }
+
+      .overlay {
+          position: relative;
+          box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+          padding: 20px;
+          border-radius: 10px; 
+      }
+
+      .overlay .col-12 {
+          background-color: #ffc107;
+          border-radius: 8px; 
+          padding: 15px; 
+      }
+      .container-pr{
+        position: relative;
+        background-color:#265087;
+        border-radius: 10px;
+       
+        padding: 20px;
+      }
+    </style>
+</head>
+<body>
+  <div class="container" style="margin-top: 5%;">
+    <div class="row justify-content-center">
+      <div class="container-pr col-sm-15 col-md-8 col-lg-8">
+          <div class="overlay">
+              <div class="col-12">
+                <font color="#fff"><strong>Datos personales</strong></font>
+              </div>
+          </div>
+        
+        <form>
+            <div class="mb-3">
+              <label for="cod" class="form-label" style="font-size: small;"> <font color="#DBC9F5"><strong>D.N.I</strong></font></label>
+              <input  placeholder="ejm:70889259" type="text" class="form-control" id="cod" >
+            </div>
+            <div class="mb-3">
+              <label for="cod" class="form-label" style="font-size: small;"> <font color="#DBC9F5"><strong>Nombre</strong></font></label>
+              <input placeholder="ejm:Pepe Alejandro" type="text" class="form-control" id="cod" >
+            </div>
+            <div class="mb-3">
+                <label for="cod" class="form-label" style="font-size: small;"> <font color="#DBC9F5"><strong>Apellidos</strong></font></label>
+                <input placeholder="ejm:Perez Gómez" type="text" class="form-control" id="cod" >
+              </div>
+              <div class="mb-4">
+                <label for="cod" class="form-label"  style="margin-right:10%;"><font color="#DBC9F5"><strong>Sexo</strong></font></label>
+                <input type="radio" style="margin-right:5%;" name="sexo" value="F"><font color="#DBC9F5"><Strong>Femenino</Strong></font>
+                <input type="radio" style="margin-right:5%;" name="sexo" value="M"><font color="#DBC9F5"><strong>Masculino</strong></font>
+              </div>
+            
+          </form>
+        </div>
+        <div id="carouselExampleIndicators" class="carousel slide">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="..." class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="..." class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="..." class="d-block w-100" alt="...">
+            </div>
+          </div>
+        
+          <a href="Formulario-2.html" class="carousel-control-next" role="button" data-bs-slide="next">
+            <button class="carousel-control-next-icon" aria-hidden="true" style="background-color: black;"></button>
+            <span class="visually-hidden">Next</span>
+          </a>
+           
+          </button>
+        </a>
+        </div>
+      
+     
+  </div>
+  </div>
+</body>
+</html>
+
